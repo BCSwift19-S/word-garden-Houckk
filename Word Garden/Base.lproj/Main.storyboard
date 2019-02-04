@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've Made 0 Guesses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXp-nV-QA5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've Made 0 Guesses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXp-nV-QA5">
                                 <rect key="frame" x="16" y="179" width="343" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -89,7 +89,7 @@
                     </view>
                     <connections>
                         <outlet property="flowerImageView" destination="ean-aF-I64" id="0Vp-Xq-2L7"/>
-                        <outlet property="guessedCountLebel" destination="PXp-nV-QA5" id="YeM-DM-7GZ"/>
+                        <outlet property="guessedCountLabel" destination="PXp-nV-QA5" id="YeM-DM-7GZ"/>
                         <outlet property="guessedLetterButton" destination="0z0-je-jSL" id="f4O-nR-k13"/>
                         <outlet property="guessedLetterField" destination="iRL-YB-XD8" id="SgG-2i-AQG"/>
                         <outlet property="playAgainButton" destination="E9A-no-qob" id="xSV-u8-Ymc"/>
